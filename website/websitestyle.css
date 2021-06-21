@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+#h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: rgb(22, 240, 203);
+}
+
+#body {
+    color: black;
+    background-image: url("7443a31b6a19e5630b94a6538ff9bdd1.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#h2 {
+    text-align: right;
+}
+
+#h2_1 {
+    text-decoration: none;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+#h2_2 {
+    text-decoration: none;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+#h2_3 {
+    text-decoration: none;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+#h2_4 {
+    text-decoration: none;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+#h2_1:visited {
+    text-decoration: none;
+    color: black;
+}
+#h2_2:visited {
+    text-decoration: none;
+    color: black;
+}
+#h2_3:visited {
+    text-decoration: none;
+    color: black;
+}
+#h2_4:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#About {
+    font-size: 40px;
+    color: lightcoral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Gallery {
+    font-size: 40px;
+    color: lightcoral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#myFace {
+    float: left;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    padding: 3px;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+
+/* Gallery Section*/
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+  
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+.h4 {
+    font-size: 30px;
+    color: lightcoral;
+}
+
+#hiddenMessage {
+    display: none;
+}
+.people {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.people img{
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px black;
+    max-width: 100%
+}
+
+.landscapes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.landscapes img{
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px black;
+    max-width: 100%
+}
